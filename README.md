@@ -1,67 +1,100 @@
-# 👨‍👩‍👧 ROOTED Parenting & Family Services — Care, Support & Local Programs
+# 💛 ROOTED Wellness — People Wellness, Family Support & Aging Services
 
-A family-focused vertical that wraps around **Kids Mode**, caregivers, and local support systems.
+A non-clinical “people wellness” discovery vertical inside the ROOTED OS.
 
-This vertical is for **adults & caregivers**, not for kids to navigate alone.
+This repository consolidates:
+- Parenting & Family Services
+- Senior Services
+
+Into a single, clean, role-guided discovery experience.
 
 ---
 
 ## 🎯 Purpose
 
 Includes:
+- Parenting & caregiver programs
+- Childcare resources (non-advertorial, non-marketplace)
+- Family support services (non-crisis directory)
+- Accessibility & mobility programs
+- Senior centers and aging support resources
+- Adult day programs (directory + education)
+- Community meal supports
+- Wellness education (non-clinical)
 
-- Local parenting programs
-- Childcare resources (non-advertorial)
-- Family counseling & support services (non-crisis directory)
-- After-school & enrichment programs (tied to Education/Experiences)
-- Family-focused community events & groups
-- Support for caregivers of children with special needs
+This vertical helps adults and caregivers find:
+- services
+- programs
+- events
+- support resources
 
-ROOTED Family Services is **NOT**:
+without turning care into a marketplace.
 
-- A childcare marketplace
-- A babysitting gig platform
-- A medical or clinical system
-- A surveillance / tracking tool
+---
 
-It is a **support & navigation layer** for families.
+## 🚫 What This Is NOT
+
+ROOTED Wellness is NOT:
+- Medical diagnosis or treatment
+- Medical billing, insurance workflows, or EMR storage
+- A private caregiver hiring marketplace
+- A childcare gig platform / babysitting marketplace
+- Surveillance, tracking, or vulnerability targeting
 
 ---
 
 ## 🧭 Vertical Identity
 
 This vertical is:
+- 💛 People-centered
+- 🔐 Highly governed
+- 🧒 Kids Mode aligned (but adult-facing)
+- 🚫 No commercial ranking of vulnerable services
+- 🧭 Public-good by default
 
-- 💛 Family-centered
-- 🧒 Directly aligned with Kids Mode governance (but adult-facing)
-- 🛑 No “bidding” on children, no ranking by payment
-- 🔐 Bound by child safety & data minimization
-- 🧭 Non-political and non-religious by default
+Kids are not monitored and are not treated as entities.
+Kids Mode is a safety and UI enforcement posture.
 
-Family Services UI may never:
+---
 
-- Expose children’s personal data
-- Enable targeting of families based on vulnerability
-- Sell or broker access to families
+## 🧱 Structure (Clean Separation Inside One Repo)
+
+ROOTED Wellness may present guided entry points such as:
+- “Parenting & Family Services”
+- “Senior Services”
+- “Accessibility & Mobility”
+- “Caregiver Support”
+- “Programs & Events”
+
+These are navigation and discovery routes — not separate identities.
 
 ---
 
 ## 📁 Repository Scope
 
 Includes:
+- Wellness UI surfaces
+- Discovery cards and program listings
+- Accessibility guidance and resource flows
+- Events display surfaces (where relevant)
 
-- Parent & caregiver UI
-- Family program discovery
-- Resource & support cards
-- Flows that bridge Kids surfaces and adult decision-makers
-
-Does **NOT** include:
-
-- Schema or RLS changes
-- Payment flows for childcare labor
-- Any weakening of Kids Mode safety
+Does NOT include:
+- Schema/RLS edits
+- Payment systems for caregiving labor
+- Any weakening of Kids Mode protections
 
 Backend authority:
-
 - `rooted-core`
 - `rooted-platform/governance/`
+
+---
+
+## ✅ Canonical Reminder
+
+If any implementation conflicts with:
+- database enforcement (RLS / views / RPCs)
+- Kids Mode governance
+- sanctuary/nonprofit protections
+- anti-surveillance doctrine
+
+Then the implementation is invalid and must be corrected.
